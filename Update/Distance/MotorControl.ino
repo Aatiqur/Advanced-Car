@@ -1,4 +1,4 @@
-// Shared declarations for the split Distance project.
+// MotorControl.ino — L298N direction + PWM via ESP32 ledc
 void setLeftMotor(int speedValue) {
   if (speedValue > 0) {
     digitalWrite(IN1, HIGH);
